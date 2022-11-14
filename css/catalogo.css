@@ -1,5 +1,128 @@
-* body{
-   color: gray;
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+body{
+   font-family: 'open sans';
+
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1000px; 
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+   color: rgb(137, 226, 137);
+   font-size: 30px;
+   text-align: center;
+   margin: 60px;
+}
+/*header*/
+header{
+   width: 100%;
+   height: 600px;
+   background: #34e89e; /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, hsla(155, 66%, 35%, 0.541), hsla(181, 78%, 46%, 0.906)), url(../imagenes/frente2.jpg); 
+   background: linear-gradient(to right, hsla(155, 66%, 35%, 0.541), hsla(181, 78%, 46%, 0.906)), url(../imagenes/frente2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background-size: cover;
+   background-attachment: fixed;
+   position: relative;
+}
+
+nav{
+   text-align: right;
+   padding: 30px 50px 0 0;
+}
+nav > a{
+   color:#fff;
+   font-weight: 300 ;
+   text-decoration: none;
+   margin-right: 10px;
+}
+nav > a:hover{
+
+   text-decoration: underline;
+}
+
+header .textos-header{
+   display: flex;
+   height: 430px;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.textos-header h1{
+   font-size: 50px;
+   color:#fff
+}
+.textos-header h2{
+   font-size: 30px;
+   font-weight:300 ;
+   color:#fff
+}
+
+/*sobre nosotros*/
+.contenedor-sobre-nosotros{
+   display:flex ;
+   justify-content: space-evenly;
+}
+
+.temporadas{
+   background:#fff ;
+}
+.galeria-temp{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.imagen-temp{
+   height: 40%;
+   width: 40%;
+   padding: 10px ;
+   overflow: hidden;
+   position: relative;
+   cursor: pointer;
+   box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+.imagen-temp > img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+
+}
+.hover-galeria{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top:0;
+   transform: scale(0);
+   background:hsla(179, 82%, 69%, 0.495) ;
+   transition: transform .5s;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.hover-galeria img{
+   width: 50px;
+}
+.hover-galeria p{
+   color: #fff;
+}
+
+.imagen-temp:hover .hover-galeria{
+   transform: scale(1);
 
 }
 
