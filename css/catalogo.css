@@ -167,24 +167,23 @@ header .textos-header{
    background: #f2f2f2;
    padding-bottom: 30px;
 }
+
+.servicio-ind {
+   height: 40%;
+   width: 40%;
+   padding: 10px ;
+   overflow: hidden;
+   position: relative;
+   cursor: pointer;
+   box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}   
 .servicio-cont{
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
+ 
 
-.servicio-ind{
-   width: 28%;
-   text-align: center;
-}
-
-.servicio-ind{
-   width: 90%;
-}
-
-.servicio-ind{
-   margin: 10px 0;
-}
 
 /*footer*/
 footer{
