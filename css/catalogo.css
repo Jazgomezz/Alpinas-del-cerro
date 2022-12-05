@@ -162,7 +162,7 @@ header .textos-header{
 }
 
 /*servicios*/
-.grid{
+/*.grid{
    display: grid;
    grid-template-columns: repeat(1, 1fr);
    gap: 20px;
@@ -173,6 +173,31 @@ header .textos-header{
    position: relative;	
    left: 100px;	
    top: 100px;
+}*/
+
+.servicios{
+   background:#fff ;
+}
+.our{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.servicio-cont{
+   height: 40%;
+   width: 40%;
+   padding: 10px ;
+   overflow: hidden;
+   position: relative;
+   cursor: pointer;
+   box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+.servicio-ind > img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+
 }
 
 .hover-servicios{
