@@ -10,13 +10,7 @@ body{
 
 }
 
-.contenedor{
-    padding: 60px 0;
-    width: 100%;
-    max-width: 1000px; 
-    margin: auto;
-    overflow: hidden;
-}
+
 
 .titulo{
    color: rgb(137, 226, 137);
@@ -168,28 +162,18 @@ header .textos-header{
 }
 
 /*servicios*/
-.servicios{
-   background: #f2f2f2;
-   padding-bottom: 30px;
+.grid{
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   gap: 20px;
+   
 }
 
-.servicio-ind {
-   height: 40%;
-   width: 40%;
-   padding: 10px ;
-   /* overflow: hidden;*/
-   position: relative;
-   cursor: pointer;
-   box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-}   
-.servicio-cont{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+.servicio-ind{
+   position: relative;	
+   left: 335px;	
+   top: 338px;
 }
- 
-
-
 /*footer*/
 footer{
    background: #414141;

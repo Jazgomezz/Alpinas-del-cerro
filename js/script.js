@@ -37,3 +37,6 @@ element.style.setProperty("color", "green");
 }
 
 }
+
+console.log('Bienvenido a alpinas de cerro');
+
