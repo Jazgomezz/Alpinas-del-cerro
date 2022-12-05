@@ -222,6 +222,11 @@ header .textos-header{
    color: #fff;
 }
 
+.servicio-ind:hover .hover-servicios{
+   transform: scale(1);
+
+}
+
 
 /*footer*/
 footer{
