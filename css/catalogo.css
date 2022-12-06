@@ -240,8 +240,8 @@ header .textos-header{
    flex-wrap: wrap;
 }
 .img-com{
-   height: 60%;
-   width: 60%;
+   height: 80%;
+   width: 80%;
    padding: 100px ;
    overflow: hidden;
    position: relative;
