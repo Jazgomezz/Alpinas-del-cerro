@@ -286,7 +286,7 @@ header .textos-header{
 
 .dirección{
    width: 100%;
-   height: 600px;
+   
    background: -webkit-linear-gradient(to right, hsla(156, 14%, 49%, 0.541), hsla(180, 66%, 90%, 0.906)), url(../imagenes/veranito.jpg); 
    background: linear-gradient(to right, hsla(156, 14%, 49%, 0.541), hsla(180, 66%, 90%, 0.906)), url(../imagenes/frente2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    background-size: cover;
@@ -296,24 +296,16 @@ header .textos-header{
 }
 
 .img-ubi{
-   /*background-color: #73b397;*/
+ 
    text-align: left;
 }
 
 .formulario{
-   /*background-color: #414141;*/
-   /*text-align: right;
-   /*width: 50px;*/
-   
-   height: 430px;
-   width: 100%;
-   align-items: center;
-   justify-content: right;
+ 
    text-align: right;
-   color:#fff;
-   font-weight: 300 ;
-   text-decoration: none;
-   margin-right: 10px;
+   
+   
+   
    
 
 }
