@@ -284,6 +284,8 @@ header .textos-header{
 
 /*ubicación*/
 
+
+
 .img-ubi{
    background-color: #73b397;
    text-align: left;
@@ -291,7 +293,15 @@ header .textos-header{
 
 .formulario{
    /*background-color: #414141;*/
-   text-align: center;
+   /*text-align: right;
+   /*width: 50px;*/
+   display: flex;
+   height: 430px;
+   width: 100%;
+   align-items: center;
+   justify-content: right;
+   text-align: right;
+
 }
 
 /*footer*/
