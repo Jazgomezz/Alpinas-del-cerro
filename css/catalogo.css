@@ -282,7 +282,11 @@ header .textos-header{
 
 }
 
+/*ubicación*/
 
+.img-ubi{
+   background-color: #73b397;
+}
 
 /*footer*/
 footer{
