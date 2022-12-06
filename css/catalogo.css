@@ -286,11 +286,12 @@ header .textos-header{
 
 .img-ubi{
    background-color: #73b397;
+   text-align: left;
 }
 
 /*footer*/
 footer{
-   background: #414141;
+   /*background: #414141;*/
    padding: 60px 0 30px 0;
    margin: auto;
    overflow: hidden ;
