@@ -84,8 +84,8 @@ header .textos-header{
    flex-wrap: wrap;
 }
 .imagen-temp{
-   height: 40%;
-   width: 40%;
+   height: 60%;
+   width: 60%;
    padding: 10px ;
    overflow: hidden;
    position: relative;
@@ -240,9 +240,9 @@ header .textos-header{
    flex-wrap: wrap;
 }
 .img-com{
-   height: 40%;
-   width: 40%;
-   padding: 10px ;
+   height: 60%;
+   width: 60%;
+   padding: 100px ;
    overflow: hidden;
    position: relative;
    cursor: pointer;
@@ -271,7 +271,7 @@ header .textos-header{
 }
 
 .img-com > img{
-   width: 50px;
+   width: 100px;
 }
 .des ul{
    color: #fff;
