@@ -303,7 +303,8 @@ header .textos-header{
 .formulario{
  
    text-align: right;
-   width: 50px;   
+    margin-right: 50px;
+    padding-left: 1050px;
    
 
 }
