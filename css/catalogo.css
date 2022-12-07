@@ -41,6 +41,7 @@ nav{
 nav > a{
    color:#fff;
    font-weight: 300 ;
+   /*Declaro que el texto va a estar subrayado*/
    text-decoration: none;
    margin-right: 10px;
 }
