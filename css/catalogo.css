@@ -282,7 +282,7 @@ header .textos-header{
 .des ul{
    color: #fff;
 }
-
+/*Unimos para que ande el hover cuando pase por arriba el mouse*/
 .img-com:hover .des{
    transform: scale(1);
 
