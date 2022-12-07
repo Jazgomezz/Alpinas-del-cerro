@@ -29,11 +29,12 @@ header{
    background-size: cover;
    /*Posicion de la imagen ; se queda ahí mientras el usuario hace movimiento. */
    background-attachment: fixed;
-   /**/
+   
    position: relative;
 }
 
 nav{
+   /*Declara en que parte va a flotar, en este caso en la derecha*/
    text-align: right;
    padding: 30px 50px 0 0;
 }
