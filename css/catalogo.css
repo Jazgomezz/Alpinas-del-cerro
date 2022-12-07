@@ -76,7 +76,7 @@ header .textos-header{
 }
 
 .temporadas{
-   background:#fff(239, 228, 158) ;
+   background:#fff(246, 187, 119)(239, 228, 158) ;
 }
 .galeria-temp{
    display: flex;
