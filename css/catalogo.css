@@ -339,7 +339,7 @@ header .textos-header{
    display: block;
 
 }
-/*
+
 .text-otto{
    position: absolute;
    width: 100%;
@@ -353,6 +353,7 @@ header .textos-header{
    align-items: center;
    flex-direction: column;
 }
+/*
 
 .img-otto > img{
    width: 100px;
