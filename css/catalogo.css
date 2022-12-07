@@ -25,8 +25,11 @@ header{
    /*Se declara la imagen de fondo para el encabezado*/
    background: -webkit-linear-gradient(to right, hsla(155, 66%, 35%, 0.541), hsla(181, 78%, 46%, 0.906)), url(../imagenes/frente2.jpg); 
    background: linear-gradient(to right, hsla(155, 66%, 35%, 0.541), hsla(181, 78%, 46%, 0.906)), url(../imagenes/frente2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /*Se declara la imagen para que aparezca atras*/
    background-size: cover;
+   /*Posicion de la imagen ; se queda ahí mientras el usuario hace movimiento. */
    background-attachment: fixed;
+   /**/
    position: relative;
 }
 
