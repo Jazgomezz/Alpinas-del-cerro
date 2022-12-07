@@ -379,6 +379,7 @@ footer{
    background: #414141;
    padding: 60px 0 30px 0;
    margin: auto;
+   /*Estaria escondiendo el elemento*/
    overflow: hidden ;
 }
 .contenedor-footer{
