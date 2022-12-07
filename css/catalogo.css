@@ -353,7 +353,7 @@ header .textos-header{
    align-items: center;
    flex-direction: column;
 }
-/*
+
 
 .img-otto > img{
    width: 100px;
@@ -361,6 +361,7 @@ header .textos-header{
 .text-otto p{
    color: #fff;
 }
+
 
 .img-otto:hover .text-otto{
    transform: scale(1);
